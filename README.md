@@ -1,7 +1,7 @@
 SpreeGocardless
 ===============
 
-Introduction goes here.
+.
 
 
 Example
