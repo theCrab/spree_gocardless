@@ -1,8 +1,12 @@
 SpreeGocardless
 ===============
 
-.
+GoCardless is a next generation payments UK based Direct Debit payment provider. 
+They make it incredibly cheap and easy for anyone to take payments online using the Direct Debit infrastructure.
 
+## API DOCS
+GOCardless Docs https://gocardless.com/docs
+Ruby Clent Lib https://github.com/gocardless/gocardless-ruby
 
 Example
 =======
