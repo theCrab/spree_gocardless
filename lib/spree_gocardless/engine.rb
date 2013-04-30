@@ -12,11 +12,11 @@ module SpreeGocardless
     end
 
     initializer "spree.gateway.payment_methods", after: "spree.register.payment_methods" do |app|
-      app.config.spree.payment_methods << Spree::Gocardless
+      app.config.spree.payment_methods << Spree::Gateway::Gocardless
     end
 
     def self.activate
-      require "gocardless"
+      # require "gocardless"
 
       Dir.glob(File.join(File.dirname(__FILE__), '../../app/**/*_decorator*.rb')) do |c|
         Rails.configuration.cache_classes ? require(c) : load(c)
