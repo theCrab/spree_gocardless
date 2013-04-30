@@ -7,12 +7,13 @@ Gem::Specification.new do |s|
   s.description = 'TODO: Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
 
-  # s.author    = 'The Crab'
-  # s.email     = 'nelson@safarista.com'
-  # s.homepage  = 'http://www.safarista.com'
+  s.author    = 'The Crab'
+  s.email     = 'nelson@safarista.com'
+  s.homepage  = 'http://www.safarista.com'
 
-  #s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files       = `git ls-files`.split("\n")
+  s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+
   s.require_path = 'lib'
   s.requirements << 'none'
 
