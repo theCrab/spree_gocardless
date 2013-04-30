@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name        = 'spree_gocardless'
   s.version     = '0.0.1'
   s.summary     = 'Spree Payment gateway for GoCardless'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.description = 'The new simple & cheap way to accept Direct Debits. Perfect for regular billing & invoicing. Start collecting by Direct Debit'
   s.required_ruby_version = '>= 1.8.7'
 
   s.author    = 'The Crab'
