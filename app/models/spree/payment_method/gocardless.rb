@@ -7,8 +7,8 @@ module Spree
     preference :token, :string
     preference :merchant_id, :string
 
-    # preference :server, :string, default: 'test'
-    # preference :test_mode, :boolean, default: true
+    preference :server, :string, default: 'test'
+    preference :test_mode, :boolean, default: true
 
     def payment_profiles_supported?
       false
