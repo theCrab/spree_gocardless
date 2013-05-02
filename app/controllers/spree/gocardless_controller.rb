@@ -32,7 +32,7 @@ class Spree::GocardlessController < Spree::BaseController
     GoCardless.confirm_resource params
 
 
-    if @order and @order.present? and correct_order_state
+    if @order && @order.present? && correct_order_state
 
       @order.payment.pend!
 
