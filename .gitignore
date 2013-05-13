@@ -1,6 +1,10 @@
 \#*
 *~
 .#*
+.rspec
+.rvmrc
+.ruby-gemset
+.ruby-version
 .DS_Store
 .idea
 .project
